@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include <conio.h>
+//#include <conio.h>
 #include <ctype.h>
 // Task 1. 38
 // Task 2. 45
@@ -28,7 +28,7 @@ int lr3task1(void) {
         printf("%hu, %hu\n", d, m);
     }
     return 0;
-}
+/*}
 int lr3task2(void) {
     int cha=0;
     printf("45) Press any key (Numpad 0/0 to finish task)\n");
@@ -42,7 +42,7 @@ int lr3task2(void) {
         }
     }
     return 0;
-}
+}*/
 int lr3task3(void) {
     double x=0, y=0, z=0, ans1=0, ans2=0, sinval=0, ans3=0, ansf=0, minv=0, maxv=0;
     printf("64) Enter X, Y, Z\n");
@@ -231,7 +231,7 @@ int lr3task10(void) {
 int main(void) {
     lr3task1();
     lr3task2();
-    lr3task3();
+    //lr3task3();
     lr3task5();
     lr3task6();
     lr3task7();
