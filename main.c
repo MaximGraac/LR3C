@@ -28,8 +28,8 @@ int lr3task1(void) {
         printf("%hu, %hu\n", d, m);
     }
     return 0;
-/*}
-int lr3task2(void) {
+}
+/*int lr3task2(void) {
     int cha=0;
     printf("45) Press any key (Numpad 0/0 to finish task)\n");
     while (cha!=48) {
